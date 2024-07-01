@@ -1,0 +1,124 @@
+
+header{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    width: 100%;
+    height: 7vh;
+    background-color: #404a3d;
+    color: ghostwhite;
+    font-size: medium;
+}
+
+.l-socialmedia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+}
+
+.contact-l{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eddd5e;
+    color: #404a3d;
+    width: 20%;
+    height: 100%;
+}
+
+.carousel-text{
+    position: relative;
+}
+
+.wel-text{
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    text-align: left;
+} 
+
+ .wel-text2{
+  position: absolute;
+  top: 12%;
+  left: 52%;
+}
+
+.service-itemimg1:hover{
+    background-image: url('service-1.jpg');
+    color: ghostwhite;
+    cursor: pointer;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .service-itemimg2:hover{
+    background-image: url('service-3.jpg');
+    color: ghostwhite;
+    cursor: pointer;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .service-itemimg3:hover{
+    background-image: url('service-2.jpg');
+    color: ghostwhite;
+    cursor: pointer;
+    background-size: 90%;
+  }
+  
+  
+  .service-icon {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 60px;
+    width: 140px;
+    height: 140px;
+    margin-top: -70px;
+    margin-bottom: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 120px;
+    padding: 15px;
+  }
+
+  .position-relative-img{
+    position: relative;
+  }
+  
+
+  .product-overlay{
+    position: absolute;
+    top: 110px;
+    left: 95px;
+    /* display: none; */
+  }
+  
+  .social-icons{
+    box-shadow: rgba(0,0,0,0.2) 0px 8px 16px 0px;
+    background: silver;
+    padding: 3px;
+    border-radius: .2rem;
+    cursor: pointer;
+  }
+
+  #validationCustomUsername{
+    text-transform: capitalize;
+  }
+
+  .div-ani:hover{
+    scale: 1.08;
+    cursor: pointer;
+  }
+
+  .nav-bg{
+  background-color: red !important;
+  }
+
+
+/* -------------------------------------------------------------- */
+@media only screen and (max-width: 790px) {
+    header{
+      display: none;
+    }
+    .navbar{
+      padding: 0 0 0 0 !important;
+    }
+  }
